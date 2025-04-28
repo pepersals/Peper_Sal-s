@@ -1,0 +1,234 @@
+body{
+	 background-image:url("../imagenes/fondo.jpg");
+	 font-family:"tahoma","lucida console","courier new";
+     color:#1C2833;
+     font-size:40px;
+     text-align:center;
+}
+hr{
+	 border:3px solid #BA4A00;
+	 width:80%;
+	 border-radius:5px;
+}
+p{
+	 text-align:justify;
+	 font-size:30px;
+	 color:#D35400;
+	 font-weight:bold;
+	 line-height:1.5;
+	 background-color:#FBFCFC;
+	 letter-spacing:2px;
+ }
+table,tr,td{
+	 border:1px solid #E74C3C;
+     border-spacing:0;
+     background-color:#FCF3CFf;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+}
+.pie{
+	font-family:"hand";
+	 text-align:center;
+	 font-size:10px;
+	 font-weight:bold;
+ }
+.encabezado{
+	text-align:center;
+	font-size:35px;
+    font-weight:bold;
+	color:#26A181;
+	font-family:"jungle";
+ }
+div#top{
+	font-family:"blue";
+   	width:100%;
+	height:75px;
+	background-image:linear-gradient(#4761BA,#192B66);
+ }
+ div#alex{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	font-family:"ema";
+	background-color:#5a88d4;
+ }
+div#ppag{
+	width:100%;
+	height:100px;
+	font-family:"hand";
+	font-size:10px;
+	background-image:linear-gradient(#5e8bd6,#6a94da);
+ }
+ /*carrousel de imagenes*/
+.carrousel{
+    width:600px;
+	margin:auto;
+	box-sizing:border-box;
+ }
+.contecarrousel{
+	width:100%;
+    height:400px;
+    overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+    width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+    height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+    position:absolute;
+    top:0;
+	bottom:0;
+    left:0; 
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows > i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller > a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows > a > i {
+	color:white;
+}
+/*cajas para productos*/
+.caja{
+	height:400px;
+	width:150px;
+	background:#1D0702;
+	border:1px solid blue;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px blue;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:grey;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+	color:blue;
+	font-weight:bold;
+}
+div#pepe{
+	width:600px;
+	height:200px;
+	padding-top:5px;
+	font-size:18px;
+	background-color:#3881f8;
+	font-family:"tahoma";
+	font-weight:bold;
+}
+.navegacion{
+		display:flex;
+		height:100px;
+	}
+	.navegacion-item{
+		flex:1;
+		color:#fff;
+		font-weight:bold;
+		font-size:18px;
+		display:flex;
+		transition: flex-grow 0.2s;
+		justify-content:center;
+		align-items:center;
+	}
+.navegacion-titulo{
+	margin:0;
+	font-size:15px;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#85C1E9;
+}
+.navegacion-item:nth-child(2){
+	background:#76D7C4;
+}
+.navegacion-item:nth-child(3){
+	background:#F9379F;
+}
+.navegacion-item:nth-child(4){
+	background:#D7DBE2;
+}
+.cuadro{
+	text-align:center;
+	display:flex;
+	border:5px solid #ccc;
+	padding: 50px;
+	max-width:1050px;
+	background-color:#4FD385
+}
+.imagen{
+	width: 200px;
+	height: 200px;
+	background-image: url(../imagenes/icono.jpg);
+	background-size: cover;
+	background-position:center;
+	margin-right:20px;
+}
+
+.texto{
+	font-size:17px;
+}
+.navegacion-itemm{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+@font-face{
+	font-family:"blue";
+	src: url(../fuentes/blue.ttf);
+}
+@font-face{
+	font-family:"hand";
+	src: url(../fuentes/hand.ttf);
+}
+@font-face{
+	font-family:"ema";
+	src: url(../fuentes/ema.ttf);
+}
+@font-face{
+	font-family:"jungle";
+	src: url(../fuentes/jungle.ttf);
+}
+
+
